@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header_link {
+  margin-right: 1rem !important;
+}
+
+.header_link > a {
+  color: white;
+  text-decoration: none;
+}
+
+.positive {
+  color: #29af14;
+}
+
+.negative {
+  color: #fb111e;
+}
+
+.cryptocoins {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+}
+
+.cryptocoins__item {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cryptocoins__symbol {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cryptocoins__name {
+  color: #c3ab00;
+}
+
+.cryptocoins__price {
+  color: #404040;
+}
+
+.cryptocoins__change {
+  font-size: 17px;
+}
